@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load staticfiles %}
+
+<link rel="stylesheet" href="{% static "css/base.css" %}">
+{%  block title %} Images {% endblock %}
+{% block body %}
+    <link rel="stylesheet" href="{% static "css/imageHover.css" %}">
+<div class="container">
+    <div class="box">
+        <div class="imgBox">
+            <img src="{%  static "images/SAM_0251.JPG" %}">
+        </div>
+        <div class="details">
+            <div class="content" >
+                <h2> Myanmar </h2>
+                <p> South East Asia</p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="{%  static "images/20160226_161252.jpg" %}">
+
+        </div>
+        <div class="details">
+            <div class="content" >
+                <h2> Switzerland</h2>
+                <p> Europe</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="{%  static "images/Bali-347.jpg" %}">
+        </div>
+        <div class="details">
+            <div class="content" >
+                <h2> Bali </h2>
+                <p> South East Asia</p>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+
+        <div class="imgBox">
+            <img src="{%  static "images/_1110213.jpg" %}">
+
+        </div>
+        <div class="details">
+            <div class="content" >
+                <h2> Japan</h2>
+                <p> East Asia </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="{%  static "images/_1110064.jpg" %}">
+
+        </div>
+        <div class="details">
+            <div class="content" >
+                <h2> Thailand </h2>
+                <p> South East Asia</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="{%  static "images/_1110918.jpg" %}">
+
+        </div>
+        <div class="details">
+            <div class="content" >
+                <h2> Seattle</h2>
+                <p> United States of America</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="{%  static "images/_1130056.jpg" %}">
+
+        </div>
+        <div class="details">
+            <div class="content" >
+                <h2> Montreal</h2>
+                <p> Canada </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="box">
+        <div class="imgBox">
+            <img src="{%  static "images/_1130366.jpg" %}">
+
+        </div>
+        <div class="details">
+            <div class="content" >
+                <h2> Washington DC</h2>
+                <p> United States of America</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+    color: rgba(36, 36, 36, 0.78);
+}
+
+.toolBar {
+    position: relative;
+    margin: 0px auto;
+    width: 750px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+
+
+.toolBar .icon {
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+

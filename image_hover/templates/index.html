@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{%  load staticfiles %}
+<link rel="stylesheet" href="{% static "css/base.css" %}">
+{%  block title %} Welcome! {% endblock %}
+{%  block body %}
+    <link rel="stylesheet" href="{% static "css/welcome.css" %}">
+    <div class="welcome">
+        <h1> Welcome to the website!</h1>
+    </div>
+{% endblock %}
