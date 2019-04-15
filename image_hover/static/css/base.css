@@ -5,8 +5,9 @@ a {
 
 .toolBar {
     position: relative;
-    margin: 0px auto;
+    margin: 0 auto;
     width: 750px;
+    border: black 10px solid;
     min-height: 50px;
     display: flex;
     flex-direction: row;
